@@ -95,10 +95,27 @@ input[type="text"]{
     font-weight: 500;
     color: #02283d;
     opacity: 85%;
+    outline: none;
+    transition: outline  0.08s ease-in-out;
 }
 
 input[type="text"]:focus {
-    outline: 2px solid navy;
+    outline: 3px solid navy;
     opacity: 100%;
-    transition: outline  0.08s ease-in-out; /* Adjust duration and timing as needed */
+}
+
+input[type="submit"]{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: #005fea;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #022c64;
 }
