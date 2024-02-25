@@ -121,6 +121,9 @@ input[type="submit"]:hover{
 }
 
 .card{
+    height: 20rem;
+    width: 15rem;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
